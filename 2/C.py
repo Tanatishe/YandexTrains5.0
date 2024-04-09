@@ -1,0 +1,5 @@
+n = int(input())
+massiv = list(map(int, input().split()))
+summa = sum(massiv)
+maximum = max(massiv)
+print(maximum * 2 - summa if maximum > summa - maximum else summa)
